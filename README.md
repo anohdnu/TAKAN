@@ -1,6 +1,6 @@
 ##  TAKAN
 PyTorch code for the  paper:\
-**Out-of-Distribution Detection in Continual Learning**\
+**Out-of-Distribution Detection in Continual Learning**
 <p align="center">
 <img src="main_fig.png" width="90%">
 </p>
@@ -12,7 +12,6 @@ Please following the setup steps in [CODA-Prompt]
  * set up conda environment w/ python 3.8, ex: `conda create --name coda python=3.8`
  * `conda activate coda`
  * `sh install_requirements.sh`
- * <b>NOTE: this framework was tested using `torch == 2.0.0` but should work for previous versions</b>
  
 ### Datasets
  * Create a folder `data/`
@@ -39,7 +38,7 @@ Results will be saved in a folder named `outputs/`. To get the final average acc
     
 
 ## Thanks
-The code is developed based on [KAC] and [CODA-Prompt], and the implementation of KAC follows [Fast-KAN].
+The code is developed based on [KAC] and [CODA-Prompt], and [Fast-KAN].
 
 [KAC]: https://github.com/Ethanhuhuhu/KAC
 
